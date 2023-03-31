@@ -1,7 +1,12 @@
 {
     // See https://go.microsoft.com/fwlink/?LinkId=827846
     // for the documentation about the extensions.json format
+    // Default registry is Open VSX - https://www.open-vsx.org/
     "recommendations": [
-      "ms-vscode.js-debug"
+      "ms-vscode.js-debug",
+      "redhat.vscode-yaml",
+      "redhat.vscode-openshift-connector",
+      "redhat.vscode-tekton-pipelines",
+      "dbaeumer.vscode-eslint"
     ]
 }
