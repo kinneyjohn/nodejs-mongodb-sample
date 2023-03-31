@@ -7,6 +7,7 @@
       "redhat.vscode-yaml",
       "redhat.vscode-openshift-connector",
       "redhat.vscode-tekton-pipelines",
-      "dbaeumer.vscode-eslint"
+      "dbaeumer.vscode-eslint",
+      "mongodb.mongodb-vscode"
     ]
 }
