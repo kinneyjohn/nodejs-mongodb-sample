@@ -2,11 +2,9 @@
 A simple NodeJS web application which communicates with MongoDB. Useful for testing Eclipse Che Node workspace.
 
 ## Contribute Using OpenShift Dev Spaces!
-Checkout main branch ->
-[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#https://github.com/kinneyjohn/nodejs-mongodb-sample.git)
+[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://console-openshift-console.apps.acm-hub.sandbox1471.opentlc.com/#https://github.com/kinneyjohn/nodejs-mongodb-sample.git) - **Checkout main branch**
 
-Use VSCode Extensions to work on feature branch ->
-[![Contribute-feature-branch](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/#https://github.com/kinneyjohn/nodejs-mongodb-sample.git/tree/feature)
+[![Contribute-feature-branch](https://www.eclipse.org/che/contribute.svg)](https://console-openshift-console.apps.acm-hub.sandbox1471.opentlc.com/#https://github.com/kinneyjohn/nodejs-mongodb-sample.git/tree/feature) - **Use VSCode Extensions to work on feature branch**
 
 # MongoDB
 The application connects to the Mongo data base, so it should be configured with next parameters:

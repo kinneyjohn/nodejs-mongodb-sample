@@ -5,7 +5,10 @@
 
 const mongoose = require('mongoose')
 
-const mongoURI = "mongodb://user:password@localhost:27017/guestbook"
+// define MongoDB host from ENV or use localhost
+const mongodbHost = process.env.MONGODB_HOST || 'localhost';
+
+const mongoURI = `mongodb://user:password@${mongodbHost}:27017/guestbook`
 
 const db = mongoose.connection;
 
