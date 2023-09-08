@@ -11,8 +11,9 @@ components:
           value: 220fd770-c028-480d-8f95-f84353c7d55a 
         - name: NODE_ENV
           value: production
-        - name: MONGODB_HOST
-          value: 'localhost'
+        # MongoDB Host details are mounted as environment variables through a secret
+        # - name: MONGODB_HOST
+        #   value: 'localhost'
       endpoints:
         - exposure: public
           name: nodejs
